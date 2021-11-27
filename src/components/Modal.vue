@@ -1,5 +1,5 @@
 <template>
-  <div class="modal" @click="closeModal">
+  <div class="modal" @click.self="closeModal">
     <div class="modal-container">
       <h3>consectetur adipisicing</h3>
       <p>
